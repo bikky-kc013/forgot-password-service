@@ -6,4 +6,5 @@ userAuthRouter.post("/register",addUser);
 userAuthRouter.post("/forgot", forgetUsers);
 userAuthRouter.post("/resetpassword", resetPassword);
 
+
 module.exports = { userAuthRouter };
